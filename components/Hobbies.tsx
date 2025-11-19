@@ -86,7 +86,7 @@ const Hobbies: React.FC = () => {
                  <div className={`absolute inset-0 ${getCategoryColor(item.category)} opacity-20`}></div>
                  
                  <img 
-                  src={`./images/grid${item.id}.jpg`} 
+                  src={`./images/grid${item.id}.webp`} 
                   alt={`${item.category} showcase ${item.id}`}
                   className="w-full h-auto object-cover relative z-10"
                   loading="lazy"
